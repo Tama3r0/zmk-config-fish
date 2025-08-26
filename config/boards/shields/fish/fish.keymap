@@ -206,13 +206,13 @@
 
         combo_lbkt {
             key-positions = <2 29>;
-            bindings = <&kp RBKT>;
+            bindings = <&kp JP_LBRACKET>;
             layers = <0>;
         };
 
         combo_rbkt {
             key-positions = <5 30>;
-            bindings = <&kp NON_US_HASH>;
+            bindings = <&kp JP_RBRACKET>;
             layers = <0>;
         };
 
@@ -314,8 +314,13 @@
 
         combo_caret {
             key-positions = <6 15 17>;
-            bindings = <&kp EQUAL>;
+            bindings = <&kp JP_CARET>;
             layers = <0>;
+        };
+        combo_eqal {
+            key-positions = <17 30>;
+            bindings = <&kp JP_EQUAL>;
+            layers = <1>;
         };
     };
     
@@ -338,8 +343,8 @@
 
         layer_math {
             bindings = <
-                        &kp DQT     &kp FSLH    &kp BSLH    &none               &none       &kp PLUS    &kp STAR    &kp MINUS   
-&trans      &kp TILDE   &kp HASH    &kp UNDER   &kp AT      &none               &none       &kp N1      &kp N2      &kp N4      &kp N8      &none       
+                        &kp DQT     &kp FSLH    &kp BSLH    &none               &none       &kp JP_PLUS    &kp JP_ASTERISK    &kp MINUS   
+&trans      &kp JP_TILDE   &kp HASH    &kp JP_YEN   &kp JP_AT      &none               &none       &kp N1      &kp N2      &kp N4      &kp N8      &none       
             &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
                                                 &trans      &kp DEL             &trans      &trans      
             >;
