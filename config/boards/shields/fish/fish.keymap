@@ -182,14 +182,14 @@
         };
 
         combo_lbkt {
-            key-positions = <2 28>;
-            bindings = <&kp LBKT>;
+            key-positions = <2 29>;
+            bindings = <&kp RBKT>;
             layers = <0>;
         };
 
         combo_rbkt {
             key-positions = <5 30>;
-            bindings = <&kp RBKT>;
+            bindings = <&kp NON_US_HASH>;
             layers = <0>;
         };
 
@@ -291,7 +291,7 @@
 
         combo_caret {
             key-positions = <6 15 17>;
-            bindings = <&kp CARET>;
+            bindings = <&kp EQUAL>;
             layers = <0>;
         };
     };
