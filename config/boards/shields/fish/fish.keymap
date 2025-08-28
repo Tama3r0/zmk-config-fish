@@ -337,7 +337,7 @@
                         &kp F       &kp U       &kp Y       &none               &none       &kp B       &kp N       &kp R       
 &kp ESC     &kp I       &kp O       &kp A       &kp E       &none               &none       &kp S       &kp K       &kp H       &kp T       &none       
             &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI                                    &kp RGUI    &kp RALT    &kp RCTRL   &kp LS(LS(RSHFT)) 
-                                                &lt 2 SPACE &kp BSPC            &lt 1 RET   &kp TAB     
+                                                &kp BSPC    &lt 2 SPACE        &lt 1 RET   &kp TAB     
             >;
         };
 
@@ -346,7 +346,7 @@
                         &kp DQT     &kp FSLH    &kp BSLH    &none               &none       &kp JP_PLUS    &kp JP_ASTERISK    &kp MINUS   
 &trans      &kp JP_TILDE   &kp HASH    &kp JP_YEN   &kp JP_AT      &none               &none       &kp N1      &kp N2      &kp N4      &kp N8      &none       
             &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
-                                                &trans      &kp DEL             &trans      &trans      
+                                                &kp DEL     &trams             &trans      &trans      
             >;
         };
 
@@ -355,7 +355,7 @@
                         &none       &kp UP      &none       &none               &none       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 
 &trans      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none               &none       &kp F1      &kp F2      &kp F4      &kp F8      &none       
             &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
-                                                &trans      &kp BSPC            &trans      &trans      
+                                                &kp BSPC      &trams            &trans      &trans      
             >;
         };
     };
