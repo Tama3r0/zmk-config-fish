@@ -49,31 +49,8 @@
     quick-tap-ms = <200>;
 };
 
-&sk {
-};
-
-&sl {
-};
-
-&caps_word {
-};
-
-&key_repeat {
-};
-
 
 / {
-    // 独自の入力を定義できる（上級者向け）
-
-    behaviors {
-    };
-
-    macros {
-    };
-
-    conditional_layers {
-    };
-
 
     // 複数キーの同時押しに特別の入力を設定できる
     // キー番号早見表：
