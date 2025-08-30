@@ -136,7 +136,7 @@
             bindings =<&kp JP_DQUOTE>;
             layers = <0>;
     };
-    
+};
 
     // キーに入力を割り当てる
     // 型（&...）は https://zmk.dev/docs/behaviors/... を参照
@@ -172,5 +172,4 @@
             >;
         };
     };
-};
 };
