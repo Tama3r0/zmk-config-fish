@@ -69,26 +69,14 @@
             bindings = <&bootloader>;
         };
 
-        combo_w {
-            key-positions = <15 17>;
-            bindings = <&kp W>;
-            layers = <0>;
-        };
-
-        combo_z {
-            key-positions = <15 16>;
-            bindings = <&kp Z>;
-            layers = <0>;
-        };
-
         combo_lang2 {
-            key-positions = <10 11 12>;
+            key-positions = <11 12>;
             bindings = <&kp LANG2>;
             layers = <0>;
         };
 
         combo_lang1 {
-            key-positions = <15 16 17>;
+            key-positions = <15 16>;
             bindings = <&kp LANG1>;
             layers = <0>;
         };
@@ -103,6 +91,18 @@
             key-positions = <16 30>;
             bindings = <&kp DOT>;
             layers = <0 1>;
+        };
+        combo_qmark {
+            key-positions = <17 30>;
+            bindings = <&kp QMARK>;
+            layers = <0>;
+        };
+
+        combo_xmark {
+            key-positions = <18 30>;
+            bindings = <&kp EXCL>;
+            layers = <0>;
+        };
 
         combo_reset_R {
             key-positions = <4 14 19>;
@@ -114,117 +114,15 @@
             bindings = <&studio_unlock>;
         };
 
-        combo_minus {
-            key-positions = <15 16 30>;
-            bindings = <&kp MINUS>;
-            layers = <0>;
-        };
-
         combo_lbkt {
-            key-positions = <2 29>;
+            key-positions = <3 29>;
             bindings = <&kp JP_LBRACKET>;
             layers = <0>;
         };
 
         combo_rbkt {
-            key-positions = <5 30>;
+            key-positions = <4 30>;
             bindings = <&kp JP_RBRACKET>;
-            layers = <0>;
-        };
-
-        combo_n3 {
-            key-positions = <15 16>;
-            bindings = <&kp N3>;
-            layers = <1>;
-        };
-
-        combo_n5 {
-            key-positions = <15 17>;
-            bindings = <&kp N5>;
-            layers = <1>;
-        };
-
-        combo_n6 {
-            key-positions = <16 17>;
-            bindings = <&kp N6>;
-            layers = <1>;
-        };
-
-        combo_n7 {
-            key-positions = <15 16 17>;
-            bindings = <&kp N7>;
-            layers = <1>;
-        };
-
-        combo_n9 {
-            key-positions = <15 18>;
-            bindings = <&kp N9>;
-            layers = <1>;
-        };
-
-        combo_n0 {
-            key-positions = <16 18>;
-            bindings = <&kp N0>;
-            layers = <1>;
-        };
-
-        combo_f3 {
-            key-positions = <15 16>;
-            bindings = <&kp F3>;
-            layers = <2>;
-        };
-
-        combo_f5 {
-            key-positions = <15 17>;
-            bindings = <&kp F5>;
-            layers = <2>;
-        };
-
-        combo_f7 {
-            key-positions = <15 16 17>;
-            bindings = <&kp F7>;
-            layers = <2>;
-        };
-
-        combo_f6 {
-            key-positions = <16 17>;
-            bindings = <&kp F6>;
-            layers = <2>;
-        };
-
-        combo_f9 {
-            key-positions = <15 18>;
-            bindings = <&kp F9>;
-            layers = <2>;
-        };
-
-        combo_f10 {
-            key-positions = <16 18>;
-            bindings = <&kp F10>;
-            layers = <2>;
-        };
-
-        combo_f11 {
-            key-positions = <15 16 18>;
-            bindings = <&kp F11>;
-            layers = <2>;
-        };
-
-        combo_f12 {
-            key-positions = <17 18>;
-            bindings = <&kp F12>;
-            layers = <2>;
-        };
-
-        combo_qmark {
-            key-positions = <17 30>;
-            bindings = <&kp QMARK>;
-            layers = <0>;
-        };
-
-        combo_excl {
-            key-positions = <18 30>;
-            bindings = <&kp EXCL>;
             layers = <0>;
         };
 
@@ -233,11 +131,10 @@
             bindings = <&kp JP_CARET>;
             layers = <0>;
         };
-        combo_eqal {
-            key-positions = <17 30>;
-            bindings = <&kp JP_EQUAL>;
-            layers = <1>;
-        };
+        combo_wquort {
+            key-positions = <5 6 30>;
+            bindings =<&kp JP_DQUOTE)
+            layers = <0>;
     };
     
 
@@ -250,8 +147,8 @@
 
         layer_keymap {
             bindings = <
-                      &kp F       &kp U       &kp Y       &kp MINUS             &kp M       &kp B       &kp N       &kp R       
-&kp Q     &kp I       &mt LGUI O  &mt LALT A  &mt LSHFT E &&kp DOT              &kp J       &mt RSHFT S &mt RALT K  &mt RGUI T  &kp H       &kp P     
+                      &kp Q       &kp U       &kp Y       &kp MINUS            &kp M       &kp B       &kp N       &kp R       
+&kp ESC   &kp I       &mt LGUI O  &mt LALT A  &mt LSHFT E &kp F                &kp J       &mt RSHFT S &mt RALT K  &mt RGUI T  &kp H       &kp P     
           &kp Z       &kp X       &kp C       &kp V                                         &kp L       &kp G       &kp D       &kp W
                                               &kp BSPC    &lt 2 SPACE           &lt 1 RET   &mt RCTRL TAB     
             >;
@@ -259,18 +156,18 @@
 
         layer_math {
             bindings = <
-                        &kp DQT     &kp FSLH    &kp BSLH    &none               &none       &kp JP_PLUS    &kp JP_ASTERISK    &kp MINUS   
-&trans      &kp JP_TILDE   &kp HASH    &kp JP_YEN   &kp JP_AT      &none               &none       &kp N1      &kp N2      &kp N4      &kp N8      &none       
-            &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
-                                                &kp DEL     &trans             &trans      &trans      
+                       &kp JP_EQUAL &kp JP_CARET    &kp JP_YEN     &kp HSAH    &kp JP_PLUS     &kp N7  &kp N8  &kp MINUS   
+&kp LSHIFT  &kp SEMI   &kp JP_COLON &kp JP_LBRACKET &JP_RBRACKET   &kp PRCNT   &kp JP_ASTERISK &kp N4  &kp N5  &kp N6 &kp MINUS &FSLH       
+            &kp COMMA  &kp DOT      &kp FSLH        &JP_UNDERSCORE                          &kp N1  &kp N2  &kp N3 &kp N0     
+                                                &kp DEL     &trans          &trans          &trans      
             >;
         };
 
         layer_navi {
             bindings = <
-                        &none       &kp UP      &none       &none               &none       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 
-&trans      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none               &none       &kp F1      &kp F2      &kp F4      &kp F8      &none       
-            &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
+                        &none       &kp UP      &none       &none               &none       &kp F7      &kp F8      &kp F9 
+&trans      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none               &kp F5      &kp F6      &kp F7      &kp F8  &kp F9 &none      
+            &trans      &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                              &kp F1      &kp F2      &kp F3  &kp F4      
                                                 &kp BSPC      &trans            &trans      &trans      
             >;
         };
