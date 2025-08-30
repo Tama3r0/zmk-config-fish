@@ -81,18 +81,6 @@
             layers = <0>;
         };
 
-        combo_g {
-            key-positions = <16 17>;
-            bindings = <&kp G>;
-            layers = <0>;
-        };
-
-        combo_d {
-            key-positions = <17 18>;
-            bindings = <&kp D>;
-            layers = <0>;
-        };
-
         combo_lang2 {
             key-positions = <10 11 12>;
             bindings = <&kp LANG2>;
@@ -115,55 +103,6 @@
             key-positions = <16 30>;
             bindings = <&kp DOT>;
             layers = <0 1>;
-        };
-
-        combo_x {
-            key-positions = <1 2>;
-            bindings = <&kp X>;
-            layers = <0>;
-        };
-
-        combo_q {
-            key-positions = <0 2>;
-            bindings = <&kp Q>;
-            layers = <0>;
-        };
-
-        combo_l {
-            key-positions = <5 7>;
-            bindings = <&kp L>;
-            layers = <0>;
-        };
-
-        combo_p {
-            key-positions = <5 6>;
-            bindings = <&kp P>;
-            layers = <0>;
-        };
-
-        combo_m {
-            key-positions = <6 7>;
-            bindings = <&kp M>;
-            layers = <0>;
-        };
-
-        combo_j {
-            key-positions = <7 18>;
-            bindings = <&kp J>;
-            layers = <0>;
-        };
-
-        combo_c {
-            key-positions = <10 11>;
-            bindings = <&kp C>;
-            layers = <0>;
-        };
-
-        combo_v {
-            key-positions = <11 12>;
-            bindings = <&kp V>;
-            layers = <0>;
-        };
 
         combo_reset_R {
             key-positions = <4 14 19>;
@@ -311,10 +250,10 @@
 
         layer_keymap {
             bindings = <
-                        &kp F       &kp U       &kp Y       &none               &none       &kp B       &kp N       &kp R       
-&kp ESC     &kp I       &kp O       &kp A       &kp E       &none               &none       &kp S       &kp K       &kp H       &kp T       &none       
-            &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI                                    &kp RGUI    &kp RALT    &kp RCTRL   &kp LS(LS(RSHFT)) 
-                                                &kp BSPC    &lt 2 SPACE        &lt 1 RET   &kp TAB     
+                      &kp F       &kp U       &kp Y       &kp MINUS             &kp M       &kp B       &kp N       &kp R       
+&kp Q     &kp I       &mt LGUI O  &mt LALT A  &mt LSHFT E &&kp DOT              &kp J       &mt RSHFT S &mt RALT K  &mt RGUI T  &kp H       &kp P     
+          &kp Z       &kp X       &kp C       &kp V                                         &kp L       &kp G       &kp D       &kp W
+                                              &kp BSPC    &lt 2 SPACE           &lt 1 RET   &mt RCTRL TAB     
             >;
         };
 
