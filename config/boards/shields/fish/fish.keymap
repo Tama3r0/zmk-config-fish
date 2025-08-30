@@ -133,7 +133,7 @@
         };
         combo_wquort {
             key-positions = <5 6 30>;
-            bindings =<&kp JP_DQUOTE)
+            bindings =<&kp JP_DQUOTE>;
             layers = <0>;
     };
     
