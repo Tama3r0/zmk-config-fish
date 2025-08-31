@@ -271,7 +271,7 @@
         layer_math {
             bindings = <
                         &kp JP_DQUOTE     &kp FSLH    &kp JP_YEN    &kp JP_COLON               &kp JP_EQUAL       &kp JP_PLUS    &kp JP_ASTERISK    &kp MINUS   
-&trans      &kp JP_TILDE   &kp HASH    &kp JP_UNDERSCORE   &kp JP_AT      &SEMI               &kp JP_AMPERSAND      &kp N1      &kp N2      &kp N4      &kp N8      &kp FSLH       
+&trans      &kp JP_TILDE   &kp HASH    &kp JP_UNDERSCORE   &kp JP_AT      &kp SEMI               &kp JP_AMPERSAND      &kp N1      &kp N2      &kp N4      &kp N8      &kp FSLH       
             &trans      &trans      &trans      &trans                                      &kp JP_LPAREN      &kp JP_RPAREN      &kp JP_LBRACE      &kp JP_RBRACE      
                                                 &trans      &kp DEL             &trans      &trans      
             >;
