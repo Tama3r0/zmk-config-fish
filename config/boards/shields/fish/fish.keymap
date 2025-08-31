@@ -69,29 +69,6 @@
             bindings = <&bootloader>;
         };
 
-        combo_w {
-            key-positions = <15 17>;
-            bindings = <&kp W>;
-            layers = <0>;
-        };
-
-        combo_z {
-            key-positions = <15 16>;
-            bindings = <&kp Z>;
-            layers = <0>;
-        };
-
-        combo_g {
-            key-positions = <16 17>;
-            bindings = <&kp G>;
-            layers = <0>;
-        };
-
-        combo_d {
-            key-positions = <17 18>;
-            bindings = <&kp D>;
-            layers = <0>;
-        };
 
         combo_lang2 {
             key-positions = <10 11 12>;
@@ -117,53 +94,6 @@
             layers = <0 1>;
         };
 
-        combo_x {
-            key-positions = <1 2>;
-            bindings = <&kp X>;
-            layers = <0>;
-        };
-
-        combo_q {
-            key-positions = <0 2>;
-            bindings = <&kp Q>;
-            layers = <0>;
-        };
-
-        combo_l {
-            key-positions = <5 7>;
-            bindings = <&kp L>;
-            layers = <0>;
-        };
-
-        combo_p {
-            key-positions = <5 6>;
-            bindings = <&kp P>;
-            layers = <0>;
-        };
-
-        combo_m {
-            key-positions = <6 7>;
-            bindings = <&kp M>;
-            layers = <0>;
-        };
-
-        combo_j {
-            key-positions = <7 18>;
-            bindings = <&kp J>;
-            layers = <0>;
-        };
-
-        combo_c {
-            key-positions = <10 11>;
-            bindings = <&kp C>;
-            layers = <0>;
-        };
-
-        combo_v {
-            key-positions = <11 12>;
-            bindings = <&kp V>;
-            layers = <0>;
-        };
 
         combo_reset_R {
             key-positions = <4 14 19>;
@@ -306,10 +236,10 @@
 
         layer_keymap {
             bindings = <
-                        &kp Q       &kp U       &kp Y       &none               &none       &kp B       &kp N       &kp R       
-&kp ESC     &kp O       &kp I       &kp A       &kp E       &none               &none       &kp S       &kp K       &kp H       &kp T       &none       
-            &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI                                    &kp RGUI    &kp RALT    &kp RCTRL   &kp LS(LS(RSHFT)) 
-                                                &lt 2 SPACE &kp BSPC            &lt 1 RET   &kp TAB     
+                        &kp Q       &kp U       &kp Y       &kp F               &kp B       &kp W       &kp N       &kp R       
+&mt LCTRL ESC &kp E     &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT S &mt RALT K  &mt RGUI T  &kp H       &kp P       
+            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp L       &kp J       
+                                                &kp BSPC    &lt 2 RET           &lt 1 SPACE &mt RCTRL TAB 
             >;
         };
 
