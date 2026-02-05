@@ -310,17 +310,17 @@
 
         layer_keymap {
             bindings = <
-                        &kp F       &kp U       &kp Y       &none               &none       &kp B       &kp N       &kp R       
-&kp ESC     &kp I       &kp O       &kp A       &kp E       &none               &none       &kp S       &kp K       &kp H       &kp T       &none       
-            &kp LSHFT   &kp LCTRL   &kp LALT    &kp LGUI                                    &kp RGUI    &kp RALT    &kp RCTRL   &kp RSHFT 
-                                                &kp BSPC    &lt 2 RET        &lt 1 SPACE   &mt RCTRL TAB     
+                            &mt LALT F      &mt LGUI U      &mt LGUI Y        &none               &none         &mt RGUI B       &mt RGUI N       &mt RALT R       
+&kp ESC     &mt LCTRL I     &mt LALT O      &mt LSHFT A     &mt LSHFT E       &none               &none         &mt RSHFT S      &mt RSHFT K      &mt RALT H       &mt LCTRL T       &none       
+            &none           &none           &none           &none                                               &none            &none            &none            &none
+                                                            &kp BSPC          &lt 2 RET           &lt 1 SPACE   &mt RCTRL TAB     
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp DQT     &kp FSLH    &kp BSLH    &none               &none       &kp JP_PLUS    &kp JP_ASTERISK    &kp MINUS   
-&trans      &kp JP_TILDE   &kp HASH    &kp JP_YEN   &kp JP_AT      &none               &none       &kp N1      &kp N2      &kp N4      &kp N8      &none       
+                        &mt LALT DQT     &mt LGUI FSLH    &mt LGUI BSLH    &none                   &none       &mt RGUI JP_PLUS    &mt RGUI JP_ASTERISK    &mt RALT MINUS   
+&trans      &mt LCTRL JP_TILDE   &mt LALT HASH    &mt LALT JP_YEN   &mt LALT JP_AT      &none               &none       &mt RALT N1      &mt RALT N2      &mt RALT N4      &mt LCTRL N8      &none       
             &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
                                                 &kp DEL     &trans             &trans      &trans      
             >;
@@ -328,8 +328,8 @@
 
         layer_navi {
             bindings = <
-                        &none       &kp UP      &none       &none               &none       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 
-&trans      &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none               &none       &kp F1      &kp F2      &kp F4      &kp F8      &none       
+                        &kp LALT       &kp UP      &kp LSHFT       &none               &none       &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 
+&trans      &kp LCTRL       &kp LEFT    &kp DOWN    &kp RIGHT   &none               &none       &kp F1      &kp F2      &kp F4      &kp F8      &none       
             &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
                                                 &kp BSPC      &trans            &trans      &trans      
             >;
