@@ -294,9 +294,29 @@
             layers = <0>;
         };
         combo_eqal {
-            key-positions = <17 30>;
+            key-positions = <15 16 17 18>;
             bindings = <&kp JP_EQUAL>;
             layers = <1>;
+        };
+        combo_divide {
+            key-positions = <5 7>;
+            bindings = <&kp FSLH>;
+            layers = <1>;
+        };
+        combo_underscore {
+            key-positions = <15 16 17 30>;
+            bindings = <&kp JP_UNDERSCORE>;
+            layers = <0>;        
+        };
+        combo_colon {
+            key-positions = <5 15>;
+            bindings = <&kp JP_COLON>;
+            layers = <0>;        
+        };
+        combo_semi {
+            key-positions = <6 16>;
+            bindings = <&kp SEMI>;
+            layers = <0>;        
         };
     };
     
@@ -319,12 +339,12 @@
 
         layer_math {
             bindings = <
-                        &mt LALT DQT     &mt LGUI FSLH    &mt LGUI BSLH    &none                   &none       &mt RGUI JP_PLUS    &mt RGUI JP_ASTERISK    &mt RALT MINUS   
-&trans      &mt LCTRL JP_TILDE   &mt LALT HASH    &mt LALT JP_YEN   &mt LALT JP_AT      &none               &none       &mt RALT N1      &mt RALT N2      &mt RALT N4      &mt LCTRL N8      &none       
-            &trans      &trans      &trans      &trans                                      &trans      &trans      &trans      &trans      
-                                                &kp DEL     &trans             &trans      &trans      
+                                 &mt LALT DQT     &mt LGUI FSLH      &mt LGUI BSLH     &none       &none       &mt RGUI JP_ASTERISK    &mt RGUI JP_PLUS    &mt RALT MINUS   
+&trans      &mt LCTRL JP_TILDE   &mt LALT HASH    &mt LSHFT JP_YEN   &mt LSHFT JP_AT   &none       &none       &mt RALT N1      &mt RALT N2      &mt RALT N4      &mt LCTRL N8      &none       
+            &trans               &trans           &trans             &trans                                    &trans      &trans      &trans      &trans      
+                                                                     &kp DEL           &trans      &trans      &trans      
             >;
-        };
+        };    
 
         layer_navi {
             bindings = <
