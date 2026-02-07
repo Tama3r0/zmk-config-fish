@@ -299,9 +299,10 @@
             layers = <1>;
         };
         combo_divide {
-            key-positions = <5 7>
-            binding = <&kp FSLH>
+            key-positions = <5 7>;
+            binding = <&kp FSLH>;
             layers = <1>;
+        };
     };
     
 
