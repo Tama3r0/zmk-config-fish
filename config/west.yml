@@ -9,3 +9,13 @@ manifest:
       import: app/west.yml
   self:
     path: config
+manifest:
+  remotes:
+    - name: 4mplelab
+      url-base: https://github.com/4mplelab
+  projects:
+    - name: zmk-feature-charge-indicator
+      remote: 4mplelab
+      revision: main
+  self:
+    path: config
