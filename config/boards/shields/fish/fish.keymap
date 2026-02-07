@@ -300,7 +300,7 @@
         };
         combo_divide {
             key-positions = <5 7>;
-            binding = <&kp FSLH>;
+            bindings = <&kp FSLH>;
             layers = <1>;
         };
     };
