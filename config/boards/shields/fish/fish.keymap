@@ -303,6 +303,21 @@
             bindings = <&kp FSLH>;
             layers = <1>;
         };
+        combo_underscore {
+            key-positions = <15 16 17 30>;
+            bindings = <&kp JP_UNDERSCORE>;
+            layers = <0>;        
+        };
+        combo_colon {
+            key-positions = <5 15>;
+            bindings = <&kp COLON>;
+            layers = <0>;        
+        };
+        combo_semi {
+            key-positions = <6 16>;
+            bindings = <&kp SEMI>;
+            layers = <0>;        
+        };
     };
     
 
