@@ -310,7 +310,7 @@
         };
         combo_colon {
             key-positions = <5 15>;
-            bindings = <&kp COLON>;
+            bindings = <&kp JP_COLON>;
             layers = <0>;        
         };
         combo_semi {
