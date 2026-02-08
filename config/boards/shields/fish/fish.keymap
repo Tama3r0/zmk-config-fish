@@ -317,7 +317,7 @@
         };
         combo_esc {
             key-positions = <0 9>;
-            binding = <&kp ESC>;
+            bindings = <&kp ESC>;
         };
 };
     
