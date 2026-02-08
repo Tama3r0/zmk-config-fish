@@ -301,24 +301,25 @@
         combo_divide {
             key-positions = <5 7>;
             bindings = <&kp FSLH>;
-            layers = <1>;
+            layers = <1>
         };
         combo_underscore {
             key-positions = <15 16 17 30>;
-            bindings = <&kp JP_UNDERSCORE>;
-            layers = <0>;        
+            bindings = <&kp JP_UNDERSCORE>;     
         };
         combo_colon {
             key-positions = <5 15>;
-            bindings = <&kp JP_COLON>;
-            layers = <0>;        
+            bindings = <&kp JP_COLON>;     
         };
         combo_semi {
             key-positions = <6 16>;
-            bindings = <&kp SEMI>;
-            layers = <0>;        
+            bindings = <&kp SEMI>;     
         };
-    };
+        combo_esc {
+            key-positions = <0 9>;
+            binding = <&kp ESC>;
+        };
+};
     
 
     // キーに入力を割り当てる
@@ -331,7 +332,7 @@
         layer_keymap {
             bindings = <
                             &mt LALT F      &mt LGUI U      &mt LGUI Y        &none               &none         &mt RGUI B       &mt RGUI N       &mt RALT R       
-&kp ESC     &mt LCTRL E     &mt LALT O      &mt LSHFT A     &mt LSHFT I       &none               &none         &mt RSHFT S      &mt RSHFT K      &mt RALT H       &mt LCTRL T       &none       
+&none     &mt LCTRL E     &mt LALT O      &mt LSHFT A     &mt LSHFT I       &none               &none         &mt RSHFT S      &mt RSHFT K      &mt RALT H       &mt LCTRL T       &none       
             &none           &none           &none           &none                                               &none            &none            &none            &none
                                                             &kp BSPC          &lt 2 RET           &lt 1 SPACE   &mt RCTRL TAB     
             >;
