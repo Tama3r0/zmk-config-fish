@@ -339,8 +339,8 @@
 
         layer_math {
             bindings = <
-                                 &mt LALT DQT     &mt LGUI FSLH      &mt LGUI BSLH     &none       &none       &mt RGUI JP_ASTERISK    &mt RGUI JP_PLUS    &mt RALT MINUS   
-&trans      &mt LCTRL JP_TILDE   &mt LALT HASH    &mt LSHFT JP_YEN   &mt LSHFT JP_AT   &none       &none       &mt RALT N1      &mt RALT N2      &mt RALT N4      &mt LCTRL N8      &none       
+                                 &mt LALT JP_LBRACKET     &mt LGUI JP_UNDERSCORE      &mt LGUI JP_RBRACKET     &none       &none       &mt RGUI JP_ASTERISK    &mt RGUI JP_PLUS    &mt RALT MINUS   
+&trans      &mt LCTRL JP_TILDE   &mt LALT HASH    &mt LSHFT JP_YEN   &mt LSHFT JP_AT   &none       &none       &mt RSHFT N1      &mt RSHFT N2      &mt RALT N4      &mt LCTRL N8      &none       
             &trans               &trans           &trans             &trans                                    &trans      &trans      &trans      &trans      
                                                                      &kp DEL           &trans      &trans      &trans      
             >;
