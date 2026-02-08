@@ -319,6 +319,11 @@
             key-positions = <0 9>;
             bindings = <&kp ESC>;
         };
+        combo_bt_clr {
+            key-positions = <5 6 7>;
+            bindings = <&bt BT_CLR>;
+            layers = <2>;
+        };
 };
     
 
