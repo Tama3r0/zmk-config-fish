@@ -68,6 +68,16 @@
             bindings = <&bootloader>;
         };
 
+        combo_reset_R {
+            key-positions = <4 14 19>;
+            bindings = <&bootloader>;
+        };
+
+        combo_studio_unlock {
+            key-positions = <20 21 22 23>;
+            bindings = <&studio_unlock>;
+        };
+
         combo_w {
             key-positions = <15 17>;
             bindings = <&kp W>;
@@ -162,16 +172,6 @@
             key-positions = <11 12>;
             bindings = <&kp V>;
             layers = <0>;
-        };
-
-        combo_reset_R {
-            key-positions = <4 14 19>;
-            bindings = <&bootloader>;
-        };
-
-        combo_studio_unlock {
-            key-positions = <20 21 22 23>;
-            bindings = <&studio_unlock>;
         };
 
         combo_minus {
